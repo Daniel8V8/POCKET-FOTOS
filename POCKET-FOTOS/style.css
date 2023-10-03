@@ -1,0 +1,63 @@
+.pal {
+    color: #025373;
+    color: #BDE3F2;
+    color: #049DBF;
+    color: #03738C;
+    color: #04ADBF;
+}
+html {
+    height: 100%;
+}
+body {
+    background-image:linear-gradient(#049DBF, #BDE3F2);
+    height: 100%;
+}
+.pocket {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    
+    width: 40%;
+    height: 40%;
+
+    background-image: linear-gradient(45deg, #025373 49%, transparent 51%);
+    box-shadow: -7px 7px 4px 2px #012f41;
+
+    border: 2px dashed #BDE3F2;
+    border-top: none;
+    border-right: none;
+}
+.pocket img {
+    /*opacity: 0.5;*/
+    width: 110%;
+    position: absolute;
+
+    left: 5%;
+    bottom: 5%;
+
+    transform-origin: left bottom;
+
+    border: 20px solid #BDE3F2;
+    box-shadow: 0 0 3px 3px #049DBF;
+}
+.pocket img:nth-child(1) {
+    transform: rotate(-3.5deg);
+}
+.pocket img:nth-child(3) {
+    transform: rotate(3.5deg);
+}
+.pocket .top {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    width: 50%;
+    height: 50%;
+
+    background-image: linear-gradient(45deg, #025373 48%, transparent 52%);
+    box-shadow: -7px 7px 4px 2px #012f41;
+
+    border: 2px dashed #BDE3F2;
+    border-top: none;
+    border-right: none;
+}
